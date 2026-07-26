@@ -98,6 +98,10 @@
   .preco .new small{font-size:22px; font-weight:600; color:#B9D4F2}
   .preco .tag{font-family:'Sora'; font-weight:600; font-size:12px; letter-spacing:.1em;
     color:#38BDF8; text-transform:uppercase; margin-bottom:10px}
+  .preco .why{font-size:14.5px; color:#C9DBF2; max-width:470px; margin:12px auto 0}
+  .preco .inclui{font-size:12.5px; color:#9FBBDE; max-width:540px; margin:20px auto 4px; line-height:1.8}
+  .preco .amostra{font-size:13px; color:#9FBBDE; margin-top:20px}
+  .preco .amostra a{color:var(--cyan); text-decoration:underline}
   .preco .meta{font-size:12.5px; color:#9FBBDE; margin-top:18px}
 
   /* FAQ */
@@ -109,6 +113,8 @@
   .faq p{font-size:14px; color:#4A5768; margin-top:10px; padding-left:18px}
 
   footer{background:var(--navy); color:#7FA6D4; text-align:center; padding:32px 0 96px; font-size:12px}
+  footer a{color:#8FBEF3; text-decoration:none}
+  footer a:hover{text-decoration:underline}
 
   /* BARRA FIXA (mobile) */
   .barra-fixa{position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
@@ -238,9 +244,10 @@
     <div class="autor">
       <img class="ph" src="Foto_Autor.jpg" alt="Foto do autor Marco Antonio dos Santos">
       <div>
-        <p>Profissional de negócios com atuação em estratégia digital e aplicação prática de inteligência artificial em processos.</p>
-        <p>Desenvolveu um método estruturado para transformar o uso da IA de uma ferramenta genérica em um sistema de produção personalizado, aplicável a negócios de diferentes segmentos e tamanhos.</p>
-        <p>Sua abordagem parte de uma convicção simples: tecnologia sem estratégia produz resultados medíocres. A diferença está na qualidade da informação fornecida ao sistema, não na ferramenta.</p>
+        <p>Gestor há mais de 18 anos. Passou por Financeiro, Recursos Humanos, Tecnologia da Informação, Logística e Relacionamento com o Cliente, e como gerente de operações respondeu por uma equipe de mais de 200 pessoas. Implementar método em operação real é o que ele faz profissionalmente há quase duas décadas.</p>
+        <p>A inteligência artificial entrou nesse trabalho antes de virar assunto de livro. Marco concebeu e colocou em operação um sistema de SAC onde o agente fazia a triagem dos chamados, classificava por tipo de causa, verificava a condição de garantia, direcionava para a área responsável e organizava as informações para que a qualidade conduzisse as tratativas e montasse os planos de ação. Ele desenhou o fluxo, definiu as entradas, os gatilhos e as regras de negócio.</p>
+        <p>Este livro nasceu quando ele tentou aplicar a mesma lógica a um problema diferente. Ao lançar um projeto próprio, travou na criação de conteúdo. Foi ao mercado procurar como se faz e encontrou cursos que terminavam apontando para o próximo, mais caro. A parte que faltava estava sempre um degrau acima.</p>
+        <p>Então parou de comprar e estruturou o processo do jeito que estrutura qualquer operação. É esse processo que está neste livro — inteiro, sem degrau seguinte.</p>
       </div>
     </div>
   </div>
@@ -256,10 +263,11 @@
 
 <section class="preco" id="preco">
   <div class="wrap">
-    <div class="tag">Condição de lançamento</div>
-    <div class="old">De R$ 47</div>
-    <div class="new">R$ 37 <small>à vista</small></div>
-    <a class="cta big js-comprar" href="#">Quero o método agora</a>
+    <div class="new">R$ 37</div>
+    <p class="why">Não é promoção nem isca para um curso mais caro. É o método completo, e é isso que ele custa.</p>
+    <div class="inclui">143 páginas · 13 capítulos · 6 documentos estratégicos · todos os prompts · exemplo real do início ao fim</div>
+    <a class="cta big js-comprar" href="https://pay.kiwify.com.br/8lfNu1m">Quero o método</a>
+    <div class="amostra">Prefere ler antes? <a href="Amostra_Gratis.pdf" target="_blank" rel="noopener">Os dois primeiros capítulos estão completos na amostra grátis.</a></div>
     <div class="meta">Acesso imediato após confirmação · PDF para qualquer dispositivo · Garantia de 7 dias</div>
   </div>
 </section>
@@ -271,12 +279,17 @@
     <div class="rule"></div>
 
     <details open>
+      <summary>Depois do livro vem um curso, uma mentoria, um próximo nível?</summary>
+      <p>Não. O método está completo aqui — os seis documentos, os prompts, a ordem e o exemplo aplicado do início ao fim. Não existe módulo seguinte nem parte reservada para outro produto. Os próximos livros vão tratar de outros assuntos, não de completar este.</p>
+    </details>
+    <details>
       <summary>Preciso saber usar inteligência artificial para aplicar o método?</summary>
       <p>Não. O livro ensina desde a base — o que informar, em que ordem, e com quais prompts. Não é preciso experiência prévia com IA.</p>
     </details>
     <details>
-      <summary>O método funciona para qualquer tipo de negócio?</summary>
-      <p>Sim. A estrutura é a mesma para qualquer segmento — o que muda é o conteúdo que você coloca em cada documento. O livro usa um exemplo fictício (a Game Star) para ilustrar cada etapa na prática.</p>
+      <summary>Para quem este livro é — e para quem não é</summary>
+      <p>É para quem tem um negócio ou uma atividade profissional, precisa publicar para vender, e já tentou usar IA e recebeu conteúdo genérico. A estrutura funciona para qualquer segmento — o que muda é o que você coloca em cada documento. O livro usa um exemplo fictício (a Game Star) para ilustrar cada etapa na prática.</p>
+      <p>Não é para quem procura post pronto em cinco minutos. O método tem seis documentos e uma ordem, e a primeira aplicação leva cerca de uma semana.</p>
     </details>
     <details>
       <summary>Em quanto tempo eu vejo resultado?</summary>
@@ -294,12 +307,13 @@
 </section>
 
 <footer>
-  Criação de Conteúdo com Inteligência Artificial · Marco Antonio dos Santos · 2026
+  Criação de Conteúdo com Inteligência Artificial · Marco Antonio dos Santos · 2026<br>
+  <a href="https://instagram.com/conteudo.com_ia" target="_blank" rel="noopener">@conteudo.com_ia</a>
 </footer>
 
 <div class="barra-fixa">
-  <div class="p">R$ 37 <small>de R$ 47</small></div>
-  <a class="cta js-comprar" href="#preco">Comprar agora</a>
+  <div class="p">R$ 37 <small>método completo</small></div>
+  <a class="cta js-comprar" href="https://pay.kiwify.com.br/8lfNu1m">Comprar agora</a>
 </div>
 
 </body>
